@@ -13,7 +13,7 @@ Transopedia is a website created to make difference in society as well as in the
 ## 📌 Sneak Peak of main website
  
 <!-- <h2>THE MAIN PAGE</h2> -->
-<img src="mainpg.png" alt="welcomemainpage" width="600px" height="400px">
+<img src="mainpg.png" alt="welcomemainpage" width="700px" height="450px">
 <br><br><br>
 
 
