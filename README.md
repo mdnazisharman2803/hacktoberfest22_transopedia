@@ -1,5 +1,5 @@
 
-<h1 align="center">Transopedia </h1>
+<h2 align="center">Transopedia </h2>
 
 Transopedia is a website created to make difference in society as well as in the lifes of transgender community by providing different online and offline support including fund support.
 
@@ -12,32 +12,32 @@ Transopedia is a website created to make difference in society as well as in the
 
 ## 📌 The Content of Website 
  
-<h1>THE MAIN PAGE</h1>
+<h2>THE MAIN PAGE</h2>
 <img src="mainpagewelcome.png" alt="welcomemainpage" width="800px" height="500px">
 <br><br><br>
 
 
-<h1>ABOUT US PAGE </h1>
+<h2>ABOUT US PAGE </h2>
 <img src="aboutpage.png" alt="aboutpage" width="800px" height="500px">
 <br><br><br>
 
 
-<h1>GALLERY PAGE</h1>
+<h2>GALLERY PAGE</h2>
 <img src="gallerypage.png" alt="gallerypage" width="800px" height="500px" >
 <br><br><br>
 
 
-<h1>GOVERNMENT HELP DESK </h1>
+<h2>GOVERNMENT HELP DESK </h2>
 <img src="govthelpage.png" alt="govtpage" width="800px" height="500px">
 <br><br><br>
 
 
-<h1>LOGIN PAGE</h1>
+<h2>LOGIN PAGE</h2>
 <img src="login1.png" alt="loginpage" width="800px" height="500px">
 <br><br><br>
 
 
-<h1>CONTACT PAGE</h1>
+<h2>CONTACT PAGE</h2>
 <img src="contactpage.png" alt="contactpage" width="800px" height="500px">
 <br><br><br>
 
@@ -57,13 +57,13 @@ In order to make a hassle-free environment, I implore you all (_while contributi
 
 Happy Submissions :slightly_smiling_face:
 
-<h1 align=center> Project Maintainer ⚡ </h1>
+<h2 align=center> Project Maintainer ⚡ </h2>
 <p align="center">
   <a href="https://github.com/ShrutiMishra-2002"><img src="https://github.com/SauravMukherjee44/Aec-Library-Website/blob/e2d7870b91f240964e9841a2a147aaf564b5fdb7/images/admin.jpg" width=150px height=150px /></a> 
 	<p align="center">
 
 
-<h1 align=center> OUR VALUABLE CONTRIBUTORS✨ </h1>
+<h2 align=center> OUR VALUABLE CONTRIBUTORS✨ </h2>
 <p align="center">
   
 	
@@ -71,7 +71,7 @@ Happy Submissions :slightly_smiling_face:
   <img src="https://contrib.rocks/image?repo=SauravMukherjee44/Aec-Library-Website" />
 </a>
 
-<h1 align=center>Happy Coding 👨‍💻 </h1>
+<h2 align=center>Happy Coding 👨‍💻 </h2>
 
 ---
 
