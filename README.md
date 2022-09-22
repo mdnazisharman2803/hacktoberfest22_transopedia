@@ -10,14 +10,14 @@ Transopedia is a website created to make difference in society as well as in the
 
 
 
-## 📌 The Content of Website 
+## 📌 Sneak Peak of main website
  
-<h2>THE MAIN PAGE</h2>
-<img src="mainpagewelcome.png" alt="welcomemainpage" width="800px" height="500px">
+<!-- <h2>THE MAIN PAGE</h2> -->
+<img src="mainpg.png" alt="welcomemainpage" width="800px" height="500px">
 <br><br><br>
 
 
-<h2>ABOUT US PAGE </h2>
+<!-- <h2>ABOUT US PAGE </h2>
 <img src="aboutpage.png" alt="aboutpage" width="800px" height="500px">
 <br><br><br>
 
@@ -39,9 +39,7 @@ Transopedia is a website created to make difference in society as well as in the
 
 <h2>CONTACT PAGE</h2>
 <img src="contactpage.png" alt="contactpage" width="800px" height="500px">
-<br><br><br>
-
-
+<br><br><br> -->
 
 
 # Contribution is fun! 🧡
