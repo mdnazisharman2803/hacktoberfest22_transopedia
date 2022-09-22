@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Login and Signup page | Transopedia</title>
+      <link rel="stylesheet" href="loginassets/style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+      <div class="wrapper">
+         <div class="title-text">
+            <div class="title login">
+               Login Forms
+            </div>
+            <div class="title signup">
+               Signup Form
+            </div>
+         </div>
+         <div class="form-container">
+            <div class="slide-controls">
+               <input type="radio" name="slide" id="login" checked>
+               <input type="radio" name="slide" id="signup">
+               <label for="login" class="slide login">Login</label>
+               <label for="signup" class="slide signup">Signup</label>
+               <div class="slider-tab"></div>
+            </div>
+            <div class="form-inner">
+               <form method="post" action="https://script.google.com/macros/s/AKfycbzr_bC9wn-G-_mBYV3ZJJvqIl2eDEhaNeg3EYOEQbxT9WrlPjzYhmjl7qYqOFdpCQDNPA/exec" class="login" name="google-sheet">
+                  <div class="field">
+                     <input type="text" name="Email" placeholder="Email Address" required>
+                  </div>
+                  <div class="field">
+                     <input type="password" name="Password" placeholder="Password" required>
+                  </div>
+                  <div class="pass-link">
+                     <a href="#signup">Forgot password?</a>
+                  </div>
+                  <div class="field btn">
+                     <div class="btn-layer"></div>
+                     <input type="submit" name="submit" value="Login">
+                  </div>
+                  <div class="signup-link">
+                     Not a member? <a href="">Signup now</a>
+                  </div>
+               </form>
+               <form method="post" action="https://script.google.com/macros/s/AKfycbzr_bC9wn-G-_mBYV3ZJJvqIl2eDEhaNeg3EYOEQbxT9WrlPjzYhmjl7qYqOFdpCQDNPA/exec" class="signup" id="signup" name="google-sheet">
+                  <div class="field">
+                     <input type="text" name="Email" placeholder="Email Address" required>
+                  </div>
+                  <div class="field">
+                     <input type="password" name="Password" placeholder="Password" required>
+                  </div>
+                  <div class="field">
+                     <input type="password" name="ConfirmPassword" placeholder="Confirm password" required>
+                  </div>
+                  <div class="field btn">
+                     <div class="btn-layer"></div>
+                     <input type="submit" value="Signup">
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+      <script>
+         const loginText = document.querySelector(".title-text .login");
+         const loginForm = document.querySelector("form.login");
+         const loginBtn = document.querySelector("label.login");
+         const signupBtn = document.querySelector("label.signup");
+         const signupLink = document.querySelector("form .signup-link a");
+         signupBtn.onclick = (()=>{
+           loginForm.style.marginLeft = "-50%";
+           loginText.style.marginLeft = "-50%";
+         });
+         loginBtn.onclick = (()=>{
+           loginForm.style.marginLeft = "0%";
+           loginText.style.marginLeft = "0%";
+         });
+         signupLink.onclick = (()=>{
+           signupBtn.click();
+           return false;
+         });
+         // google sheet
+         const scriptURL = 'https://script.google.com/macros/s/AKfycbzr_bC9wn-G-_mBYV3ZJJvqIl2eDEhaNeg3EYOEQbxT9WrlPjzYhmjl7qYqOFdpCQDNPA/exec'
+            const form = document.forms['google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+            })
+
+      </script>
+   </body>
+</html>
+<!-- https://mojocommerce-digital-files-production.s3.amazonaws.com/migrate_files/68d194/digital_files/wwoAvILEQFyabgk1L2GI_sheet%20code.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA47TQ2B56F36XREC6%2F20220409%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20220409T094139Z&X-Amz-Expires=600&X-Amz-SignedHeaders=host&X-Amz-Signature=7cb137cc43a982c746b398dbfc739ceae51afad7e127ca4a8e5607c8a3c3a305 -->

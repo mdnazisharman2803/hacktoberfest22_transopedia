@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-compatible" content="ie-edge">
+        <title>Donation | Transopedia</title>
+        <link rel="stylesheet" href="real.css">
+    </head>
+    <body>
+ <!-- Favicons -->
+ <link rel="shortcut icon" href="translogo.jpeg" type="image/png">
+
+<div class="container">
+    <h1 class="h1">SUPPORT US </h1>                                                                            
+    <input type="text"  class="name" placeholder="Your Name">
+    <input type="text"  class="name" placeholder="Your email address">
+    <textarea placeholder="Your message..."></textarea>
+    <br>
+    <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_IFbPCoJtuCoQ4P" async> </script> </form>
+    <br><br><br><br>
+</div>
+
+<div class="outer"></div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    if('ontouuchstart' in window == false){
+        $('body').mousemove(function(e){
+            var moveX = (e.pageX *-1/25);
+            var moveY = (e.pageY *-1/25);
+            $('.outer').css('background-position',moveX + 'px' + 'moveY' + 'px');
+        });
+    }
+</script>
+
+
+    </body>
+</html>
