@@ -1,7 +1,8 @@
 
-<h2 align="center">Transopedia </h2>
+<!-- <h2 align="center">Transopedia </h2> -->
+# Transopedia
 
-Transopedia is a website created to make difference in society as well as in the lifes of transgender community by providing different online and offline support including fund support.
+<h3>Transopedia is a website created to make difference in society as well as in the lifes of transgender community by providing different online and offline support including fund support.</h3>
 
 <h4>[ In development Phase ] 
 
