@@ -57,7 +57,7 @@ Happy Submissions :slightly_smiling_face:
 
 <h2 align=center> Project Maintainer ⚡ </h2>
 <p align="center">
-  <a href="https://github.com/ShrutiMishra-2002"><img src="https://github.com/SauravMukherjee44/Aec-Library-Website/blob/e2d7870b91f240964e9841a2a147aaf564b5fdb7/images/admin.jpg" width=150px height=150px /></a> 
+  <a href="https://github.com/ShrutiMishra-2002"><img src="87663868.png" width=150px height=150px /></a> 
 	<p align="center">
 
 
